@@ -1,0 +1,14 @@
+<mvc:View
+	controllerName="tvpanel.controller.Worklist"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:semantic="sap.m.semantic">
+
+<Page
+	showHeader = "false"
+	enableScrolling= "false"
+	>		    
+            <mvc:JSView viewName="tvpanel.view.View1"/>		    
+		    
+</Page>
+</mvc:View>

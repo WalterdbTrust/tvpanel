@@ -1,0 +1,211 @@
+
+.optionfilter{
+    width:45% !important;
+}
+.botonesSwitch{
+    position:absolute;
+    top:0px;
+    left:0px;    
+    backGround-color: transparent;
+}
+.layAutocenter{    
+    position:absolute;
+    top:10px;
+    left:10px;    
+    backGround-color: transparent;
+    width:100;
+}
+
+.layAutozoom{    
+    position:absolute;
+    top:70px;
+    left:10px;    
+    backGround-color: transparent;
+    width: 100;
+}
+
+.layverflota{    
+    position:absolute;
+    top:140px;
+    left:10px;    
+    backGround-color: transparent;
+    width: 100;
+}
+.textSwitch{
+    font-weight: bold;
+}
+
+
+.layOrigen{    
+    position:absolute;
+    top:10px;
+    right:10px;    
+    backGround-color: transparent;
+    /*width:100;*/
+}
+
+.layDestino{    
+    position:absolute;
+    top:50px;
+    right:10px;    
+    backGround-color: transparent;
+    /*width:100;*/
+}
+.layTile{
+    position:absolute;
+    top:90px;
+    right:10px;    
+    backGround-color: transparent;
+    /*width:100;*/
+}
+
+.layTile2{
+    position:absolute;
+    top:275px;
+    right:10px;    
+    backGround-color: transparent;
+    /*width:100;*/
+}
+
+.laySeleccion{
+    position:absolute;
+    top:10px;
+    left:42%;
+    /*align-items: center;*/
+    backGround-color: transparent;
+    /*width:100;*/
+}
+
+.infSeleccion{
+    backGround-color: rgba(255, 255, 255, 0.8);
+    /*opacity:0.5;*/
+} 
+
+
+
+
+.infTile{
+    backGround-color: rgba(255, 255, 255, 0.8);
+    /*opacity:0.5;*/
+} 
+
+.infTile2{
+    backGround-color: rgba(255, 255, 255, 0.8);
+    /*opacity:0.5;*/
+} 
+
+.backVerde {
+    backGround-color: #A1E777;
+}
+.backRojo{
+    backGround-color: #F57E77;
+}
+.backAzul{
+    backGround-color: #77B4F5;
+}
+.backNaranja{
+    backGround-color: #F5E277;
+}
+
+
+
+/*.layAutozoom{    */
+/*    position:absolute;*/
+/*    top:10px;*/
+/*    left:130px;    */
+/*    backGround-color: transparent;*/
+/*    width: 100;*/
+/*}*/
+
+/*.layverflota{    */
+/*    position:absolute;*/
+/*    top:22px;*/
+/*    left:230px;    */
+/*    backGround-color: transparent;*/
+/*    width: 100;*/
+/*}*/
+
+
+.divPanel2{
+    position: relative;
+}
+
+/* Color de la patente que se mueve */
+.sapMLIB.sapMLIBSelected{
+    background:#94f394;    
+}
+
+/* Color de la patente que se hace seguimiento */
+.sapMLIB .sapMLIB-CTX .sapMLIBActionable .sapMLIBFocusable .sapMLIBHoverable .sapMLIBShowSeparator .sapMLIBTypeActive .sapMListTblRow{
+    background:#94f394 !important;    
+}
+
+/* el multiselect de la patente */
+.sapUiSizeCompact .sapMCbBg{
+    visibility: hidden;
+}
+
+/*  Esto pone en pantalla completa  */
+.sapMShellCentralBox{
+    width:100% !important;
+    margin-left: 0px !important; 
+    left: 0% !important; 
+}
+
+
+
+/*  Row con el titulo del grupo   */
+.sapMListTbl .sapMGHLI.sapMLIB:not(.sapMLIBActive):not(.sapMLIBSelected):not(:hover), .sapMListTbl .sapMGHLI.sapMLIB.sapMLIBTypeInactive{
+    height:20px !important;    
+    
+}
+
+
+
+
+/*  Row comun de los vehiculos  */
+.sapUiSizeCompact .sapMListTblRow{
+    height:15px !important;    
+}
+
+
+
+
+/*  label de la tabla o comunes  */
+.sapMListTbl .sapMText, .sapMListTbl .sapMLabel{
+    font-size:10px;
+}
+
+
+
+
+/*  label del header (tipo solapas)  */
+.sapTntToolHeader .sapMITH .sapMITBHead .sapMITBText{
+    font-size:10px;
+}
+.sapContrast.sapTntToolHeader .sapMITH, .sapContrast .sapTntToolHeader .sapMITH{
+    height:30px !important;
+}
+.sapContrast.sapTntToolHeader.sapMTB, .sapContrast .sapTntToolHeader.sapMTB{
+        height:30px !important;
+}
+.sapTntToolHeader .sapMITH .sapMITBHead{
+        height:30px !important;
+}
+.sapContrast.sapMITBTextOnly .sapMITBFilterDefault.sapMITBSelected:hover>.sapMITBText, .sapContrast .sapMITBTextOnly .sapMITBFilterDefault.sapMITBSelected:hover>.sapMITBText{
+    height:30px !important;
+}
+.sapContrast.sapMITBTextOnly .sapMITBFilterDefault.sapMITBSelected>.sapMITBText, .sapContrast .sapMITBTextOnly .sapMITBFilterDefault.sapMITBSelected>.sapMITBText{
+        height:30px !important;
+    
+}
+.sapContrast.sapMITBFilterDefault, .sapContrast .sapMITBFilterDefault{
+        height:30px !important;
+}
+html.sap-desktop .sapMITBFilter:not(.sapMITBDisabled){
+      height:30px !important;
+}
+.sapContrast.sapMITBTextOnly .sapMITBFilterDefault.sapMITBSelected>.sapMITBText, .sapContrast .sapMITBTextOnly .sapMITBFilterDefault.sapMITBSelected>.sapMITBText{
+      height:30px !important;
+    
+}

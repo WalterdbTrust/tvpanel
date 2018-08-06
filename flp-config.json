@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "tvpanel.TVPanel",
+        "description": "Dashboard",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#TVPanel-Display",
+        "navigationComponentName": "tvpanel",
+        "intentSemanticObject": "TVPanel",
+        "intentAction": "Display",
+        "html5ApplicationName": "tvpanel",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "676d66f6-902e-4eba-89c3-15dd1a86a4ed-1511296754643"
+        ],
+        "contentPackages": [
+            "15d047ef-bb56-4443-8255-69a7307cdd49-1511296457397"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Dashboard",
+        "subtitle": "",
+        "searchKeywords": "Dashboard,",
+        "displayIconUrl": "sap-icon://bbyd-dashboard",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}
